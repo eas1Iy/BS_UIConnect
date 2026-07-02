@@ -33,7 +33,7 @@ static int BLANK_UIColorText        = ARGB(255, 51, 153, 255);                  
 
 /* УВЕДОМЛЕНИЯ */
 static bool BLANK_Notification      = true;                                                        // Вкл/выкл кастомные уведомления 
-static bool BLANK_NotificationLeft  = false;                                                        // Положение уведомлений слева, а не по центру.
+static bool BLANK_NotificationLeft  = false;                                                       // Положение уведомлений слева, а не по центру.
 
 /* Настройки логотипа */
 static bool BLANK_ShowLogo          = true;                                                        // Вкл/выкл лого

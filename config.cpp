@@ -151,7 +151,8 @@ class cfgCharacterScenesBLANK
 	};
 };
 /* Настройки музыки */
-class CfgSoundSets {
+class CfgSoundSets 
+{
 	class BLANK_Music_Soundset 
 	{
 		soundShaders[] 		= { "BLANK_Music_SoundShader" };
@@ -167,7 +168,7 @@ class CfgSoundShaders
 	{
 		samples[]=
 		{			
-			{"BS_UIConnect_CLIENT\gui\sound\music_menu_1.ogg",1}		// Массив с файлами, добавьте свой, у последнего элемента "," не должно быть!
+			{"BS_UIConnect_CLIENT\gui\sound\music_menu_1.ogg",1}			// Массив с файлами, добавьте свой, у последнего элемента "," не должно быть!
 		};
 		volume				= 0.4;											// Громкость
 	};

@@ -61,8 +61,9 @@ static bool             BLANK_ShowVideoByMap    = false;                        
 /* Музыка в главном меню */
 static bool BLANK_IsMusicEnabled    = true;                                                       // Вкл/выкл кастомную музыку
 /* 
-BS_UIConnect_CLIENT\gui\sound файл MainMenu.ogg
-Меняем на свой с названием 1 в 1!
+BS_UIConnect_CLIENT\gui\sound добавляем туда файлы музыки
+Затем идём в корень BS_UIConnect_CLIENT и открываем там файл config.cpp
+Идем на строчку №170 и добавляем туда свои музыкальные файлы, формат .ogg
 */
 
 /* Настройки кредитов */

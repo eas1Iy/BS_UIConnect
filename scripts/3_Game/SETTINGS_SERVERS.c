@@ -4,7 +4,7 @@
 
 /* Подключение к 1 серверу       */
 static string   BLANK_ServerName_1      = "Server #1";                          // Наименование перовго сервера
-static string   BLANK_ServerIP_1        = "192.168.1.2";                        // IP первого сервера
+static string   BLANK_ServerIP_1        = "";                        // IP первого сервера
 static int      BLANK_ServerPort_1      = 2302;                                 // Порт перового сервера
 /* Подключение к 2-ому серверу     */  
 static bool     BLANK_ShowServer_2      = true;                                 // Вкл/выкл второй (и далее) сервер
