@@ -29,7 +29,7 @@ Telegram support    :	https://t.me/blankdayz
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 static int BLANK_UIColor            = ARGB(255,  0, 128, 255);                                     // Цвет контролов
-static int BLANK_UIColorText        = ARGB(255, 51, 153, 255);                                     // Цвет текста
+static int BLANK_UIColorSecondary   = ARGB(255, 51, 153, 255);                                     // Цвет текста
 
 /* УВЕДОМЛЕНИЯ */
 static bool BLANK_Notification      = true;                                                        // Вкл/выкл кастомные уведомления 

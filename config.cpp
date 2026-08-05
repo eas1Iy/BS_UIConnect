@@ -46,7 +46,7 @@ class CfgMods
 		extra			= 0;
 		type			= "mod";
 
-		defines[] 		= { "BS_UIConnect_CLIENT","BS_UIVPPAdminTools_ON" };
+		defines[] 		= { "BS_UIConnect_CLIENT" };
 		
 		dependencies[]	= { "Game", "World", "Mission" };
 		
