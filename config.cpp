@@ -160,6 +160,13 @@ class CfgSoundSets
 		frequencyFactor 	= 1;
 		spatial 			= 0;
 	};
+	class BLANK_Notification_SoundSet
+	{
+		soundShaders[] 		= { "BLANK_Notification_SoundShader" };
+		volumeFactor	 	= 1;
+		frequencyFactor 	= 1;
+		spatial 			= 0;
+	};
 };
 /* Добавление файлов музыки */
 class CfgSoundShaders 
@@ -171,6 +178,14 @@ class CfgSoundShaders
 			{"BS_UIConnect_CLIENT\gui\sound\music_menu_1.ogg",1}			// Массив с файлами, добавьте свой, у последнего элемента "," не должно быть!
 		};
 		volume				= 0.4;											// Громкость
+	};
+	class BLANK_Notification_SoundShader
+	{
+		samples[]=
+		{
+			{"BS_UIConnect_CLIENT\gui\sound\notification\notification.ogg",1}
+		};
+		volume				= 0.8;
 	};
 };
 

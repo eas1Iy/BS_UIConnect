@@ -33,7 +33,9 @@ static int BLANK_UIColorSecondary   = ARGB(255, 51, 153, 255);                  
 
 /* УВЕДОМЛЕНИЯ */
 static bool BLANK_Notification      = true;                                                        // Вкл/выкл кастомные уведомления 
-static bool BLANK_NotificationLeft  = false;                                                       // Положение уведомлений слева, а не по центру.
+static bool BLANK_NotificationLeft  = true;                                                        // Положение уведомлений слева, а не по центру.
+static bool BLANK_NotificationAnim  = true;                                                        // Вкл/выкл анимационную панель которая отображает время жизни уведомления.
+static bool BLANK_NotificationSound = true;                                                        // Вкл/выкл звуковое сопровождение уведомлениям (заменить файл по пути: BS_UIConnect_CLIENT\gui\sound\notification\notification.ogg)
 
 /* Настройки логотипа */
 static bool BLANK_ShowLogo          = true;                                                        // Вкл/выкл лого
