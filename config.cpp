@@ -25,7 +25,8 @@ class CfgPatches
 		requiredAddons[]		=
 		{
 			"DZ_Data",
-			"DZ_Scripts"
+			"DZ_Scripts",
+			"Siberia"
 		};
 	};
 };
@@ -84,6 +85,7 @@ class cfgCharacterScenesBLANK
 			fog 		= 0.1;											// Туман				[0.0 - 1.0]
 		};
 	};
+
 	class enoch
 	{
 		class loc1
@@ -97,6 +99,7 @@ class cfgCharacterScenesBLANK
 			fog 		= 0.1;													
 		};
 	};
+
 	class Sakhal
 	{ 
 		class loc1
@@ -110,6 +113,7 @@ class cfgCharacterScenesBLANK
 			fog 		= 0.3;													
 		};
 	};
+
 	class namalsk
 	{
 		class loc1
@@ -123,6 +127,7 @@ class cfgCharacterScenesBLANK
 			fog 		= 0.1;													
 		};
 	};
+
 	class PNW
 	{
 		class loc1
@@ -136,6 +141,7 @@ class cfgCharacterScenesBLANK
 			fog 		= 0.1;													
 		};
 	};
+
 	class antoria
 	{
 		class loc1
@@ -146,6 +152,20 @@ class cfgCharacterScenesBLANK
 			overcast 	= 0.1;												
 			rain 		= 0.0;													
 			fov 		= 0.8; 													
+			fog 		= 0.1;													
+		};
+	};
+
+	class Siberia
+	{
+		class loc1
+		{
+			target[] 	= { 6948.715820, 5703.640137, 540.901428 }; 		
+			position[] 	= { 6948.108887, 5701.350586, 1.1 }; 				
+			date[] 		= { 2017,2,4,12,9 };									
+			overcast 	= 0.1;												
+			rain 		= 0.0;													
+			fov 		= 1.0; 													
 			fog 		= 0.1;													
 		};
 	};

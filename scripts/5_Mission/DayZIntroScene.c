@@ -970,6 +970,11 @@ modded class DayZIntroScene : Managed
 		BS_SpawnObject("StaticObj_Wreck_UH1Y", "3078.269531 271.785797 6730.101074", "43.707462 -0.000000 -0.000000", 0.999997);//skip
 	}
 
+	void BS_MappingSiberia()
+	{
+		// Nothing
+	}
+
 	/* Передвижение камеры */
 	void BS_MoveCherno(string m_whereMove)
 	{
@@ -1229,6 +1234,49 @@ modded class DayZIntroScene : Managed
 		BS_CameraMoving(m_Camera_Position,m_Direction_Position);
 	}
 
+	void BS_MoveSiberia(string m_whereMove)
+	{
+		switch(m_whereMove)
+		{
+			case "Main":
+			{
+				m_Camera_Position		= "6948.108887 542.260864 5701.350586";
+				m_Direction_Position	= "6949.577637 542.094238 5706.248047";
+				break;
+			}
+			case "Settings":
+			{				
+				m_Camera_Position		= "6948.108887 542.260864 5701.350586";
+				m_Direction_Position	= "6949.577637 542.094238 5706.248047";
+				break;
+			}
+			case "Exit":
+			{
+				m_Camera_Position		= "6948.108887 542.260864 5701.350586";
+				m_Direction_Position	= "6949.577637 542.094238 5706.248047";
+				break;
+			}
+			case "Play":
+			{
+				m_Camera_Position		= "6948.108887 542.260864 5701.350586";
+				m_Direction_Position	= "6949.577637 542.094238 5706.248047";
+				break;
+			}
+			case "Character":
+			{
+				m_Camera_Position		= "6948.108887 542.260864 5701.350586";
+				m_Direction_Position	= "6949.577637 542.094238 5706.248047";
+				break;
+			}
+			default:
+			{
+				Print("[BLANKSOFTWARE] - BS_MoveSiberia - ERROR - Неизвестная позиция для перемещения.");//dontobf
+				break;
+			}
+		}
+		BS_CameraMoving(m_Camera_Position,m_Direction_Position);
+	}
+
 	/* Позиция персонажа */
 	vector BS_ReturnCharacterPos(string m_mapName, vector m_CameraTransTemp[4])
 	{
@@ -1265,6 +1313,11 @@ modded class DayZIntroScene : Managed
 				return Vector(1.1, 1, 2.3).Multiply4(m_CameraTransTemp);
 				break;
 			}
+			case "siberia":
+			{
+				return Vector(6948.715820, 540.901428, 5703.640137);
+				break;
+			}
 			default:
 			{
 				Print("[BLANKSOFTWARE] - ReturnCharacterPos - ERROR - Неподдерживаемая карта, пробуем вернуть ванильное положение!");//dontobf		
@@ -1272,6 +1325,7 @@ modded class DayZIntroScene : Managed
 				break;
 			}
 		}
+		
 		return Vector(0.685547, -0.988281, 3.68823).Multiply4(m_CameraTrans);//skip
 	}
 
