@@ -876,7 +876,6 @@ modded class DayZIntroScene : Managed
 			car_2.GetInventory().CreateInInventory("Offroad_02_Trunk");
 			car_2.GetInventory().CreateInInventory("HeadlightH7");
 			car_2.GetInventory().CreateInInventory("HeadlightH7");
-			car_2.ToggleHeadlights();
 		}
 		
 		CarScript car_3 = CarScript.Cast(GetGame().CreateObject("Offroad_02", "3069.609375 270.013977 6730.974121", true)); //skip
@@ -895,7 +894,6 @@ modded class DayZIntroScene : Managed
 			car_3.GetInventory().CreateInInventory("Offroad_02_Trunk");
 			car_3.GetInventory().CreateInInventory("HeadlightH7");
 			car_3.GetInventory().CreateInInventory("HeadlightH7");
-			car_3.ToggleHeadlights();
 		}
 		
 		ItemBase object_1 = ItemBase.Cast(GetGame().CreateObject("M16A2","3067.989014 270.799866 6703.907227",true)); //skip
