@@ -166,7 +166,7 @@ modded class DayZIntroScene : Managed
 	{
 		m_itemCreatedWeapon = NULL;
 		
-		FireplaceBase object_1 = FireplaceBase.Cast(GetGame().CreateObject( "Fireplace", "4102.642578 242.122452 10321.817383" )); //skip 
+		FireplaceBase object_1 = FireplaceBase.Cast(GetGame().CreateObject( "FireplaceForever", "4102.642578 242.122452 10321.817383" )); //skip
 		if(object_1)
 		{
 			object_1.SetOrientation( "0.000000 0.0 0.0" ); //skip
@@ -316,7 +316,7 @@ modded class DayZIntroScene : Managed
 	{
 		m_itemCreatedWeapon = NULL;
 		
-		FireplaceBase object_1 = FireplaceBase.Cast(GetGame().CreateObject( "Fireplace", "10992.012695 350.044617 11506.476563" )); //skip 
+		FireplaceBase object_1 = FireplaceBase.Cast(GetGame().CreateObject( "FireplaceForever", "10992.012695 350.044617 11506.476563" )); //skip
 		if(object_1)
 		{
 			object_1.SetOrientation( "0.000000 0.000000 -0.000000" ); //skip
